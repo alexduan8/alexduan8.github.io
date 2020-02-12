@@ -27,7 +27,7 @@ body {
 }
 .myMouth:hover {
   border-color: rgb(255,0,0);
-  border-bottom-width: 500px;
+  border-radius: 100%/0 0 30px 30px;
 }
 button {
   padding: 40px;
