@@ -1,0 +1,89 @@
+body {
+  background-color: pink;
+  /* font-family: Courier New; */
+  font-family: 'Nunito', sans-serif;
+
+}
+#mySelfie {
+  background-color: rgba(0,0,0);
+  border-radius: 60px;
+  text-align: center;
+}
+.myEyes {
+}
+.myEyes:hover {
+  padding:80px;
+}
+.myNose {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.myNose:hover {
+  font-size: 106px;
+}
+.myMouth {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255,255,255);
+  border: solid white 10px;
+  border-radius: 55px;
+}
+.myMouth:hover {
+  color: rgb(0,0,0);
+  border-bottom-width: 55px;
+  border-radius: 25px;
+}
+button {
+  padding: 40px;
+  border: solid 10px;
+  border-radius: 55px;
+  border-color: rgba(255,255,255);
+  background-color: rgba(0,0,0);
+  margin: 50px;
+}
+
+button div {
+  border: solid 10px;
+  border-color: rgba(255,255,255);
+}
+button:hover {
+  padding: 80px;
+}
+h3 {
+ font-size: 50px;
+ text-decoration: line-through;
+ font-family: 'Noto Sans JP', sans-serif;
+}
+
+.theseP {
+  font-weight: bold;
+  border-radius: 25px;
+  border: dotted 10px;
+}
+
+p {
+  background-color: orange;
+  padding: 10vh;
+  border: solid black 20px;
+  margin: 20vw;
+}
+a {
+  font-size: 36px;
+  text-decoration: none;
+}
+
+a:visited {
+
+  color: rgba(0,255,0);
+}
+
+a:hover {
+  color: rgba(255,0,0);
+  font-size: 76px;
+}
+
+#theAuthor {
+  background-color: green;
+  padding: 50px;
+}
