@@ -1,0 +1,22 @@
+body{
+ background-color: black;
+}
+
+p {
+  color: white;
+}
+
+#theFlex {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.counter{
+    color: white;
+    padding: 3vw;
+    margin: 4vh;
+    background-color: red;
+    border-radius: 60px;
+}
