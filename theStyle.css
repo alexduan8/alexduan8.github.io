@@ -1,0 +1,43 @@
+
+    body{
+        background-image: url("background.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: yellow;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p {
+        color: white;
+    }
+
+   a{
+       color: yellow;
+       text-decoration: double;
+   }
+    #next{
+      border: 0px;
+      outline: 0px;
+      width: 100px;
+      height: 100px;
+      opacity: 0.5;
+    }
+    #next:hover{
+      width: 150px;
+      height: 150px;
+      opacity: 1;
+    }
+    #awge{
+        border: 0px;
+        outline: 0px;
+        width: 600px;
+        height: 450px;
+        opacity: 0.5;
+    }
+    #awge:hover{
+        opacity: 1;
+        width: 800px;
+        height: 0px;
+    }
