@@ -1,4 +1,5 @@
 var state;
+let begin;
 var Width = 800;
 var Height = 600;
 let q, w, e, r, t, y, u, i, o, p;
@@ -24,12 +25,31 @@ function preload(){
 }
 function setup() {
 	createCanvas(Width, Height);
+  textFont("Courier New");
+  state = 0;
+	begin = millis();   
 }
 function draw() {
 	var displayText = "Press UP to start. Press any key to make an ASMR noise";
 	if (upHeld == true) {
 		state = 1;
 	}
+  if (state == 0) {
+    background(0);
+    push();
+    fill("#ff0072");
+    textSize(40);
+    textAlign(CENTER);
+    for (var i = 0; i < displayText.length; i++) {
+      var floatyHeight = sin(i*0.1+(millis()*0.001)) * 50;
+      text(displayText[i], (width/displayText.length-1)*(i+1), (height/2) + floatyHeight);
+    }
+		pop();
+		push();
+		fill("#ff0072");
+		textSize(20);
+    textAlign(CENTER);
+		pop();
   }
 	if(state == 1) {
 		background(255);
@@ -64,7 +84,7 @@ function draw() {
 			p.play();
 		}
 	}
-
+	
 }
 function keyPressed() {
 	print(key + " pressed.");
