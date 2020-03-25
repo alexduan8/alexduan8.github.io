@@ -8,31 +8,31 @@ html {
 #instructions{
     width: 80vw;
 }
-#word1{
+#line1{
     font-family: monospace;
     font-size: 1.7vw;
     color: white;
     text-align: center;
 }
-#word2{
+#line2{
     font-family: monospace;
     font-size: 1.7vw;
     color: white;
     text-align: center;
 }
-#word3{
+#line3{
     font-family: monospace;
     font-size: 1.7vw;
     color: white;
     text-align: center;
 }
-#word4{
+#line4{
     font-family: monospace;
     font-size: 1.7vw;
     color: white;
     text-align: center;
 }
-#word5{
+#line5{
     font-family: monospace;
     font-size: 1.7vw;
     color: white;
@@ -44,25 +44,25 @@ html {
     color: white;
     text-align: center;
 }
-#word7{
+#line7{
     font-family: monospace;
     font-size: 1.7vw;
     color: white;
     text-align: center;
 }
-#word8{
+#line8{
     font-family: monospace;
     font-size: 1.7vw;
     color: white;
     text-align: center;
 }
-#word9{
+#line9{
     font-family: monospace;
     font-size: 1.7vw;
     color: white;
     text-align: center;
 }
-#word10{
+#line10{
     font-family: monospace;
     font-size: 1.7vw;
     color: white;
@@ -74,57 +74,48 @@ html {
 }
 
 .animated2{
-    animation-name: fadein;
-    animation-duration: 10s;
-    /* animation-delay: 1.5s; */
+  animation-name: fadein;
+  animation-duration: 10s;
 }
 
 .animated3{
-    animation-name: fadein;
-    animation-duration: 15s;
-    /* animation-delay: 2s; */
+  animation-name: fadein;
+  animation-duration: 15s;
 }
 
 .animated4{
-    animation-name: fadein;
-    animation-duration: 20s;
-    /* animation-delay: 2.5s; */
+  animation-name: fadein;
+  animation-duration: 20s;
 }
 
 .animated5{
-    animation-name: fadein;
-    animation-duration: 25s;
-    /* animation-delay: 3s; */
+  animation-name: fadein;
+  animation-duration: 25s;
 }
 
 .animated6{
-    animation-name: fadein;
-    animation-duration: 30s;
-    /* animation-delay: 3.5s; */
+  animation-name: fadein;
+  animation-duration: 30s;
 }
 
 .animated7{
-    transition: color;
-    animation-name: fadein;
-    animation-duration: 35s;
-    /* animation-delay: 4s; */
+  animation-name: fadein;
+  animation-duration: 35s;
 }
 
 .animated8{
-    animation-name: fadein;
-    animation-duration: 40s;
-    /* animation-delay: 4.5s; */
+  animation-name: fadein;
+  animation-duration: 40s;
 }
 
 .animated9{
-    animation-name: fadein;
-    animation-duration: 45s;
-    /* animation-delay: 5s; */
+  animation-name: fadein;
+  animation-duration: 120s;
 }
 
 .animated10{
-    animation-name: fadein;
-    animation-duration: 80s;
+  animation-name: fadein;
+  animation-duration: 125s;
 }
 
 @keyframes fadein {
@@ -136,3 +127,4 @@ html {
      opacity: 1;
     }
   }
+
