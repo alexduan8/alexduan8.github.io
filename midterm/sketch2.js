@@ -53,9 +53,9 @@ function draw() {
     fill("#ff0072");
     textSize(40);
     textAlign(CENTER);
-    for (var a = 0; a < displayText.length; a++) {
-      var floatyHeight = sin(a*0.1+(millis()*0.001)) * 50;
-      text(displayText[a], (width/displayText.length-1)*(a+1), (height/2) + floatyHeight);
+    for (var z = 0; z < displayText.length; z++) {
+      var floatyHeight = sin(z*0.1+(millis()*0.001)) * 50;
+      text(displayText[z], (width/displayText.length-1)*(z+1), (height/2) + floatyHeight);
     }
 		pop();
 		push();
