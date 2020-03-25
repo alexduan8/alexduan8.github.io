@@ -52,7 +52,7 @@ function draw() {
 		pop();
   }
 	if(state == 1) {
-		background(255);
+		background(0);
 		if (qHeld == true) {
 			q.play();
 		}
