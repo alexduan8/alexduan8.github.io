@@ -3,6 +3,7 @@ let begin;
 var Width = 800;
 var Height = 600;
 let q, w, e, r, t, y, u, i, o, p;
+var x, c;
 /*let a, s, d, f, g, h, j, k, l;
 let z, x, c, v, b, n, m;
 */
@@ -12,24 +13,30 @@ let qHeld, wHeld, eHeld, rHeld, tHeld, yHeld, uHeld, iHeld, oHeld, pHeld;
 let zHeld, xHeld, cHeld, vHeld, bHeld, nHeld, mHeld;*/
 
 function preload(){
-	q = loadSound("waterdrop.mp3");
-	w = loadSound("click.mp3");
-	e = loadSound("space.mp3");
-	r = loadSound("switch.mp3");
-	t = loadSound("flick.mp3");
-	y = loadSound("paper.mp3");
-	u = loadSound("soda.mp3");
-	i = loadSound("snap.mp3");
-	o = loadSound("rubberband.mp3");
-	p = loadSound("hand.mp3");
+	q = loadSound("waterdrop.mov");
+	w = loadSound("click.m4a");
+	e = loadSound("pop.m4a");
+	r = loadSound("switch.m4a");
+	t = loadSound("flick.m4a");
+	y = loadSound("paper.m4a");
+	u = loadSound("soda.m4a");
+	i = loadSound("snap.m4a");
+	o = loadSound("rubberband.m4a");
+	p = loadSound("hand.m4a");
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
 }
 function setup() {
-	createCanvas(Width, Height);
+	createCanvas(windowWidth, windowHeight);
   textFont("Courier New");
   state = 0;
 	begin = millis();   
 }
 function draw() {
+	x = random(0, windowWidth);
+  c = random(0, windowHeight);
 	var displayText = "Press UP to start. Press any key to make an ASMR noise";
 	if (upHeld == true) {
 		state = 1;
@@ -41,9 +48,9 @@ function draw() {
     fill("#ff0072");
     textSize(40);
     textAlign(CENTER);
-    for (var x = 0; x < displayText.length; x++) {
-      var floatyHeight = sin(x*0.1+(millis()*0.001)) * 50;
-      text(displayText[x], (width/displayText.length-1)*(x+1), (height/2) + floatyHeight);
+    for (var a = 0; a < displayText.length; a++) {
+      var floatyHeight = sin(a*0.1+(millis()*0.001)) * 50;
+      text(displayText[a], (windowWidth/displayText.length-1)*(a+1), (windowHeight/2) + floatyHeight);
     }
 		pop();
 		push();
@@ -53,44 +60,106 @@ function draw() {
 		pop();
   }
 	if(state == 1) {
-		background(100);
+		background(0);
 		if (qHeld == true) {
+			var qText = "drop";
+			push();
+			textSize(15);
+			fill(168, 235, 254);
+			text(qText, x, c);
+			pop();
 			qHeld = false;
 			q.play();
 		}
 		if (wHeld == true) {
+			var wText = "click";
+			push();
+			textSize(20);
+			fill(255);
+			text(wText, x, c);
+			pop();
+			qHeld =
 			wHeld = false;
 			w.play();
 		}
 		if (eHeld == true) {
+			var eText = "pop";
+			push();
+			textSize(15);
+			fill(255, 254, 146);
+			text(eText, x, c);
+			pop();
+			qHeld =
 			eHeld = false;
 			e.play();
 		}
 		if (rHeld == true) {
+			var rText = "switch";
+			push();
+			textSize(15);
+			fill(153, 255, 204);
+			text(rText, x, c);
+			pop();
 			rHeld = false;
 			r.play();
 		}
 		if (tHeld == true) {
+			var tText = "flick";
+			push();
+			textSize(25);
+			fill(255, 204, 153);
+			text(tText, x, c);
+			pop();
 			tHeld = false;
 			t.play();
 		}
 		if (yHeld == true) {
+			var yText = "paper";
+			push();
+			textSize(25);
+			fill(255);
+			text(yText, x, c);
+			pop();
 			yHeld = false;
 			y.play();
 		}
 		if (uHeld == true) {
+			var uText = "soda";
+			push();
+			textSize(25);
+			fill(179, 134, 0);
+			text(uText, x, c);
+			pop();
 			uHeld = false;
 			u.play();
 		}
 		if (iHeld == true) {
+			var iText = "snap";
+			push();
+			textSize(25);
+			fill(204, 51, 255);
+			text(iText, x, c);
+			pop();
 			iHeld = false;
 			i.play();
 		}
 		if (oHeld == true) {
+			var oText = "rubberband";
+			push();
+			textSize(25);
+			fill(255, 102, 153);
+			text(oText, x, c);
+			pop();
 			oHeld = false;
 			o.play();
 		}
 		if (pHeld == true) {
+			var pText = "hand";
+			push();
+			textSize(25);
+			fill(255, 153, 153);
+			text(pText, x, c);
+			pop();
 			pHeld = false;
 			p.play();
 		}
