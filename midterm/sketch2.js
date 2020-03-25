@@ -42,7 +42,7 @@ function setup() {
 function draw() {
 	x = random(0, width);
   c = random(0, height);
-	var displayText = "Press UP to start. Press any key to make an ASMR noise";
+	var displayText = "Press UP to start. Press top two rows to make a noise";
 	if (upHeld == true) {
 		state = 1;
 		upHeld = false;
