@@ -24,19 +24,15 @@ function preload(){
 	o = loadSound("rubberband.m4a");
 	p = loadSound("hand.m4a");
 }
-
-function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
-}
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	createCanvas(Width, Height);
   textFont("Courier New");
   state = 0;
 	begin = millis();   
 }
 function draw() {
-	x = random(0, windowWidth);
-  c = random(0, windowHeight);
+	x = random(0, width);
+  c = random(0, height);
 	var displayText = "Press UP to start. Press any key to make an ASMR noise";
 	if (upHeld == true) {
 		state = 1;
@@ -50,7 +46,7 @@ function draw() {
     textAlign(CENTER);
     for (var a = 0; a < displayText.length; a++) {
       var floatyHeight = sin(a*0.1+(millis()*0.001)) * 50;
-      text(displayText[a], (windowWidth/displayText.length-1)*(a+1), (windowHeight/2) + floatyHeight);
+      text(displayText[a], (width/displayText.length-1)*(a+1), (height/2) + floatyHeight);
     }
 		pop();
 		push();
