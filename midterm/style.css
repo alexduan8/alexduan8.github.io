@@ -128,3 +128,14 @@ html {
     animation-duration: 50s;
     /* animation-delay: 5.5s; */
 }
+
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+     opacity: 1;
+    }
+  }
+
