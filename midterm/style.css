@@ -1,17 +1,76 @@
 html {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100%;
   background-color: #000000;
-  text-align: center;
-  font-family: monospace;
-  line-height: 1.4;
-  font-size: 25px;
-}
-pre {
-  text-align: left;
 }
 p {
   color: white;
+}
+#instructions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+    line-height: 1.4;
+    font-size: 1.7vw;
+    width: 80vw;
+}
+.animated1{
+    animation-name: fadein;
+    animation-duration: 5s;
+}
+
+.animated2{
+    animation-name: fadein;
+    animation-duration: 10s;
+    /* animation-delay: 1.5s; */
+}
+
+.animated3{
+    animation-name: fadein;
+    animation-duration: 15s;
+    /* animation-delay: 2s; */
+}
+
+.animated4{
+    animation-name: fadein;
+    animation-duration: 20s;
+    /* animation-delay: 2.5s; */
+}
+
+.animated5{
+    animation-name: fadein;
+    animation-duration: 25s;
+    /* animation-delay: 3s; */
+}
+
+.animated6{
+    animation-name: fadein;
+    animation-duration: 30s;
+    /* animation-delay: 3.5s; */
+}
+
+.animated7{
+    transition: color;
+    animation-name: fadein;
+    animation-duration: 35s;
+    /* animation-delay: 4s; */
+}
+
+.animated8{
+    animation-name: fadein;
+    animation-duration: 40s;
+    /* animation-delay: 4.5s; */
+}
+
+.animated9{
+    animation-name: fadein;
+    animation-duration: 45s;
+    /* animation-delay: 5s; */
+}
+
+.animated10{
+    animation-name: fadein;
+    animation-duration: 50s;
+    /* animation-delay: 5.5s; */
 }
