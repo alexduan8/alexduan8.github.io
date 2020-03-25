@@ -2,9 +2,6 @@ html {
   height: 100%;
   background-color: #000000;
 }
-p {
-  color: white;
-}
 #instructions{
     display: flex;
     align-items: center;
@@ -13,7 +10,7 @@ p {
     font-family: monospace;
     line-height: 1.4;
     font-size: 1.7vw;
-    width: 80vw;
+    color: white;
 }
 .animated1{
     animation-name: fadein;
