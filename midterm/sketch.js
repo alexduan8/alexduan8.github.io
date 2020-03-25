@@ -33,6 +33,7 @@ function draw() {
 	var displayText = "Press UP to start. Press any key to make an ASMR noise";
 	if (upHeld == true) {
 		state = 1;
+		upHeld = false;
 	}
   if (state == 0) {
     background(0);
@@ -40,9 +41,9 @@ function draw() {
     fill("#ff0072");
     textSize(40);
     textAlign(CENTER);
-    for (var i = 0; i < displayText.length; i++) {
-      var floatyHeight = sin(i*0.1+(millis()*0.001)) * 50;
-      text(displayText[i], (width/displayText.length-1)*(i+1), (height/2) + floatyHeight);
+    for (var x = 0; x < displayText.length; x++) {
+      var floatyHeight = sin(x*0.1+(millis()*0.001)) * 50;
+      text(displayText[x], (width/displayText.length-1)*(x+1), (height/2) + floatyHeight);
     }
 		pop();
 		push();
@@ -52,35 +53,45 @@ function draw() {
 		pop();
   }
 	if(state == 1) {
-		background(0);
+		background(100);
 		if (qHeld == true) {
+			qHeld = false;
 			q.play();
 		}
 		if (wHeld == true) {
+			wHeld = false;
 			w.play();
 		}
 		if (eHeld == true) {
+			eHeld = false;
 			e.play();
 		}
 		if (rHeld == true) {
+			rHeld = false;
 			r.play();
 		}
 		if (tHeld == true) {
+			tHeld = false;
 			t.play();
 		}
 		if (yHeld == true) {
+			yHeld = false;
 			y.play();
 		}
 		if (uHeld == true) {
+			uHeld = false;
 			u.play();
 		}
 		if (iHeld == true) {
+			iHeld = false;
 			i.play();
 		}
 		if (oHeld == true) {
+			oHeld = false;
 			o.play();
 		}
 		if (pHeld == true) {
+			pHeld = false;
 			p.play();
 		}
 	}
@@ -89,22 +100,22 @@ function draw() {
 function keyPressed() {
 	print(key + " pressed.");
 	if (key === "ArrowUp"){ upHeld = true; }
-	if (key === "81"){ qHeld = true; }
-	if (key === "87"){ wHeld = true; }
-	if (key === "69"){ eHeld = true; }
-	if (key === "82"){ rHeld = true; }
-	if (key === "84"){ tHeld = true; }
-	if (key === "89"){ yHeld = true; }
-	if (key === "85"){ uHeld = true; }
-	if (key === "73"){ iHeld = true; }
-	if (key === "79"){ oHeld = true; }
-	if (key === "80"){ pHeld = true; }
+	if (key === "q"){ qHeld = true; }
+	if (key === "w"){ wHeld = true; }
+	if (key === "e"){ eHeld = true; }
+	if (key === "r"){ rHeld = true; }
+	if (key === "t"){ tHeld = true; }
+	if (key === "y"){ yHeld = true; }
+	if (key === "u"){ uHeld = true; }
+	if (key === "i"){ iHeld = true; }
+	if (key === "o"){ oHeld = true; }
+	if (key === "p"){ pHeld = true; }
 }
 
 function keyReleased() {
-	print(key + " released.");
+	/*print(key + " released.");
 	if (key === "ArrowUp"){ upHeld = false; }
-	if (key === "81"){ qHeld = false; }
+	if (key === "q"){ qHeld = false; }
 	if (key === "87"){ wHeld = false; }
 	if (key === "69"){ eHeld = false; }
 	if (key === "82"){ rHeld = false; }
@@ -113,5 +124,5 @@ function keyReleased() {
 	if (key === "85"){ uHeld = false; }
 	if (key === "73"){ iHeld = false; }
 	if (key === "79"){ oHeld = false; }
-	if (key === "80"){ pHeld = false; }
+	if (key === "80"){ pHeld = false; }*/
 }
