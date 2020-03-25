@@ -33,7 +33,7 @@ function setup() {
 function draw() {
 	x = random(0, width);
   c = random(0, height);
-	var displayText = "Press UP to start. Press the top row of letters on your keyboard to make a sound";
+	var displayText = "Press UP to start. Press the top row of letters to make a sound";
 	if (upHeld == true) {
 		state = 1;
 		upHeld = false;
@@ -189,4 +189,3 @@ function keyReleased() {
 	if (key === "79"){ oHeld = false; }
 	if (key === "80"){ pHeld = false; }*/
 }
-
