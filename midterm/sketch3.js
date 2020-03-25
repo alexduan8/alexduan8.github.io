@@ -61,7 +61,7 @@ function draw() {
     textAlign(CENTER);
     for (var count = 0; count < displayText.length; count++) {
       var floatyHeight = sin(count*0.1+(millis()*0.001)) * 50;
-      text(displayText[count], (width/displayText.length-1)*count+1), (height/2) + floatyHeight);
+      text(displayText[count], (width/displayText.length-1)*(count+1), (height/2) + floatyHeight);
     }
 		pop();
 		push();
