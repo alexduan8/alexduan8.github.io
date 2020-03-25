@@ -36,7 +36,7 @@ function preload(){
   c = loadSound("chips.m4a");
   v = loadSound("shake.m4a");
   b = loadSound("leaves.m4a");
-  n = loadSound("chopsticks.m4a");
+  n = loadSound("chopstick.m4a");
   m = loadSound("pages.m4a");
 }
 function setup() {
