@@ -4,7 +4,6 @@ html {
   justify-content: center;
   height: 100%;
   background-color: #000000;
-  color: (255,255,255);
   text-align: center;
   font-family: monospace;
   line-height: 1.4;
@@ -13,4 +12,6 @@ html {
 pre {
   text-align: left;
 }
-
+p {
+  color: white;
+}
