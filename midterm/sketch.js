@@ -28,12 +28,12 @@ function setup() {
 	createCanvas(Width, Height);
   textFont("Courier New");
   state = 0;
-	begin = millis();   
+	begin = millis();
 }
 function draw() {
 	x = random(0, width);
   c = random(0, height);
-	var displayText = "Press UP to start. Press any key to make an ASMR noise";
+	var displayText = "Press UP to start. Press the top row of letters on your keyboard to make a sound";
 	if (upHeld == true) {
 		state = 1;
 		upHeld = false;
@@ -74,7 +74,6 @@ function draw() {
 			fill(255);
 			text(wText, x, c);
 			pop();
-			qHeld =
 			wHeld = false;
 			w.play();
 		}
@@ -85,7 +84,6 @@ function draw() {
 			fill(255, 254, 146);
 			text(eText, x, c);
 			pop();
-			qHeld =
 			eHeld = false;
 			e.play();
 		}
@@ -160,7 +158,7 @@ function draw() {
 			p.play();
 		}
 	}
-	
+
 }
 function keyPressed() {
 	print(key + " pressed.");
@@ -191,3 +189,4 @@ function keyReleased() {
 	if (key === "79"){ oHeld = false; }
 	if (key === "80"){ pHeld = false; }*/
 }
+
