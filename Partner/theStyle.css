@@ -1,0 +1,7 @@
+button {
+ padding: 100px;
+}
+
+button:hover {
+ border: 5px solid yellow;
+}
