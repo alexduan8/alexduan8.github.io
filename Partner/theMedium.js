@@ -11,7 +11,6 @@ theButton.addEventListener('click', isClicked);
 // isClicked();
 function isClicked() {
  console.log("clicked!");
- theTxt.style.backgroundColor = "blue";
- theTxt.textContent = "you turned me blue!"
- theBody.style.backgroundColor = "yellow";
+ theBody.style.backgroundImage = "url(spin.gif)";
 }
+
