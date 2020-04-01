@@ -1,3 +1,10 @@
+html {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 button {
  padding: 100px;
 }
@@ -5,3 +12,4 @@ button {
 button:hover {
  border: 5px solid yellow;
 }
+
