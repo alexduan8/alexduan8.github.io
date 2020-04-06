@@ -1,0 +1,44 @@
+
+    body{
+        background-image: url("background.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: yellow;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.7vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+        font-size: 1vw;
+        height: 50vw;
+    }
+
+   a{
+       color: yellow;
+       text-decoration: double;
+   }
+    #next{
+      border: 0vw;
+      outline: 0vw;
+      width: 2vw;
+      height: 2vw;
+      opacity: 0.5;
+    }
+    #next:hover{
+      width: 2.5vw;
+      height: 2.5vw;
+      opacity: 1;
+    }
+    #flash{
+        border: 0vw;
+        outline: 0vw;
+        width: 30vw;
+        height: 20vw;
+        opacity: 1;
+    }
