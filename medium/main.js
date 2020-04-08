@@ -1,8 +1,8 @@
 const theButton = document.querySelector("#firstButton");
-// console.log(theTxt)
 
+let theBody = document.querySelector('body');
 theButton.addEventListener('click', isClicked);
-// isClicked();
+
 function isClicked() {
  console.log("clicked!");
  theBody.style.backgroundImage = "url(flash.jpg)";
