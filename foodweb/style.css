@@ -1,0 +1,690 @@
+h1 {
+ box-sizing: content-box;
+}
+
+body {
+background-color: black;
+padding: 3vw;
+}
+
+
+div {
+padding: 3vh;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  /* position: absolute; */
+  font-size: 70px;
+  font-weight: 600;
+  -webkit-text-stroke: 2px red;
+  text-align: center;
+  padding: 3vw;
+  margin: -3vh;
+  background-color: white;
+  background-image: url(assets/madagascar.jpg);
+  /* top: 0px;
+  left: 0px;
+  /* height: 5vh;
+  width: 50vh; */ */
+}
+
+.instructions{
+  color:red;
+  font-size: 24px;
+  /* left:40vw; */
+  position:relative;
+}
+
+.web-contain{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+
+#div-contain{
+  display: flex;
+  flex-direction: row;
+ bottom: 50vh;
+}
+
+.food-img{
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+#sun {
+ /* position: absolute;
+ bottom: 0px;
+ left: 0px; */
+ /* background-color: white; */
+ opacity: 100%;
+ height: 15vh;
+ width: 15vh;
+}
+
+#target {
+  /* position: absolute;
+  bottom: 43vh;
+  left: 2vw; */
+  /* background-color: white; */
+  opacity: 0%;
+  /* width: 10vw;
+  height: 10vh;
+  object-fit: contain; */
+ }
+
+ #ferns{
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+ }
+
+ #target2 {
+  /* position: absolute;
+  bottom: 5vh;
+  left: 30vw; */
+  /* background-color: white; */
+  opacity: 0%;
+
+ }
+
+ #target3{
+   opacity: 0%
+ }
+
+ #target4{
+  opacity: 0%
+}
+
+#target5{
+  opacity: 0%
+}
+
+#target6{
+ opacity: 0%
+}
+
+#target7{
+  opacity: 0%
+}
+
+#target8{
+ opacity: 0%
+}
+
+#target9{
+ opacity: 0%
+}
+
+#target10{
+opacity: 0%
+}
+
+#target11{
+  opacity: 0%
+}
+
+#target12{
+ opacity: 0%
+}
+
+#target13{
+ opacity: 0%
+}
+
+#target14{
+opacity: 0%
+}
+
+#target15{
+  opacity: 0%
+  }
+
+ #cashew{
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+ }
+
+#plant_description {
+  /* position: absolute;
+  bottom: 40vh;
+  left: 10vw; */
+  /* background-color: yellow; */
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  object-fit:contain;
+  font-size:24px;
+  color:red;
+}
+
+#plant_description2 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+#plant_description3 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+#plant_description4 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+#plant_description5 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+#plant_description6 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+#plant_description7 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+#plant_description8 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+#plant_description9 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+
+#plant_description10 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+#plant_description11 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+#plant_description12 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+#plant_description13 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+#plant_description14 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+
+#plant_description15 {
+  opacity: 0%;
+  height: 3vh;
+  width: 5vh;
+  font-size:18px;
+  color:red;
+}
+#frog{
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+#lemur{
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+#pine-cone{
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+#squirrel{
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+#berries{
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+#butterfly{
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+#raven{
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+#marten{
+  width: 85%;
+  height: 85;
+  object-fit: contain;
+}
+
+#lizard{
+  width: 120%;
+  height: 120%;
+  object-fit: contain;
+}
+
+#lion{
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+#arrow1 {
+  position: absolute;
+  bottom: -150vh;
+  left: -63vw;
+  margin:0;
+  transform: rotate(180deg);
+  opacity: 0%;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+#arrow1a {
+  max-height:20%;
+  width:auto;
+}
+#arrow2 {
+  position: absolute;
+  bottom: -120vh;
+  left: -30vw;
+  margin:0;
+  transform: rotate(-130deg);
+  opacity: 0%;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+#arrow2a {
+  max-width:50%;
+  height:auto;
+}
+#arrow3 {
+  position: absolute;
+  bottom: -130vh;
+  left: 10vw;
+  margin:0;
+  transform: rotate(-85deg);
+  opacity: 0%;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+#arrow3a {
+  max-height = "120%"";
+  width:auto;
+}
+#arrow4 {
+  position: absolute;
+  bottom: -150vh;
+  left: -55vw;
+  margin:0;
+  transform: rotate(-175deg);
+  opacity: 0%;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+#arrow4a {
+  max-width:50%;
+  height:auto;
+}
+#arrow5 {
+  position: absolute;
+  bottom: -100vh;
+  left: -43vw;
+  margin:0;
+  transform: rotate(-165deg);
+  opacity: 0%;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+#arrow5a {
+  max-height = "120%"";
+  width:auto;
+}
+#arrow6 {
+  position: absolute;
+  bottom: -130vh;
+  left: -63vw;
+  margin:0;
+  transform: rotate(180deg);
+  opacity: 0%;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+#arrow6a {
+  max-height = "100%"";
+  width:auto;
+}
+/*  position: absolute;
+  bottom: -40vh;
+  left: -45vw;
+  margin:0;
+  transform: rotate(-170deg);
+  opacity: 0%;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+#arrow7a {
+  max-height = "100%"";
+  width:auto;
+}
+#arrow8 {
+  position: absolute;
+  bottom: 20vh;
+  left: -5vw;
+  margin:0;
+  transform: rotate(-115deg);
+  opacity: 0%;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+#arrow8a {
+  max-height = "100%"";
+  width:auto;
+}
+#arrow9 {
+  position: absolute;
+  bottom: 12vh;
+  left: 27vw;
+  margin:0;
+  transform: rotate(-90deg);
+  opacity: 0%;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+#arrow9a {
+  max-height = "100%"";
+  width:auto;
+}*/
+#arrow10 {
+  position: absolute;
+  bottom: -120vh;
+  left: 10vw;
+  margin:0;
+  /*transform: rotate(0deg);*/
+  opacity: 0%;
+  width: auto;
+  max-height: 130%;
+  object-fit: contain;
+}
+#arrow11 {
+  position: absolute;
+  bottom: -165vh;
+  left: 23vw;
+  margin:0;
+  transform: rotate(-15deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 200%;
+  object-fit: contain;
+}
+#arrow12 {
+  position: absolute;
+  bottom: -125vh;
+  left: 27vw;
+  margin:0;
+  transform: rotate(-25deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 160%;
+  object-fit: contain;
+}
+#arrow13 {
+  position: absolute;
+  bottom: -105vh;
+  left: 27vw;
+  margin:0;
+  transform: rotate(-33deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 150%;
+  object-fit: contain;
+}
+#arrow14 {
+  position: absolute;
+  bottom: -147vh;
+  left: 25vw;
+  margin:0;
+  transform: rotate(0deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 120%;
+  object-fit: contain;
+}
+#arrow15 {
+  position: absolute;
+  bottom: -100vh;
+  left: 45vw;
+  margin:0;
+  transform: rotate(-155deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 30%;
+  object-fit: contain;
+}
+#arrow16 {
+  position: absolute;
+  bottom: -130vh;
+  left: 35vw;
+  margin:0;
+  transform: rotate(15deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 150%;
+  object-fit: contain;
+}
+#arrow17 {
+  position: absolute;
+  bottom: -140vh;
+  left: 40vw;
+  margin:0;
+  transform: rotate(40deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 140%;
+  object-fit: contain;
+}
+#arrow18 {
+  position: absolute;
+  bottom: -60vh;
+  left: 35vw;
+  margin:0;
+  transform: rotate(-180deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 20%;
+  object-fit: contain;
+}
+#arrow19 {
+  position: absolute;
+  bottom: -95vh;
+  left: 50vw;
+  margin:0;
+  transform: rotate(-37deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 115%;
+  object-fit: contain;
+}
+#arrow20 {
+  position: absolute;
+  bottom: -145vh;
+  left: 60vw;
+  margin:0;
+  transform: rotate(-180deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 20%;
+  object-fit: contain;
+}
+#arrow21 {
+  position: absolute;
+  bottom: -165vh;
+  left: 65vw;
+  margin:0;
+  transform: rotate(-20deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 75%;
+  object-fit: contain;
+}
+#arrow22 {
+  position: absolute;
+  bottom: -125vh;
+  left: 70vw;
+  margin:0;
+  transform: rotate(-135deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 40%;
+  object-fit: contain;
+}
+#arrow23 {
+  position: absolute;
+  bottom: -170vh;
+  left: 70vw;
+  margin:0;
+  transform: rotate(-10deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 160%;
+  object-fit: contain;
+}
+#arrow24 {
+  position: absolute;
+  bottom: -50vh;
+  left: 82vw;
+  margin:0;
+  transform: rotate(-190deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 20%;
+  object-fit: contain;
+}
+#arrow25 {
+  position: absolute;
+  bottom: -100vh;
+  left: 15vw;
+  margin:0;
+  transform: rotate(10deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 130%;
+  object-fit: contain;
+}
+#arrow26 {
+  position: absolute;
+  bottom: -170vh;
+  left: 10vw;
+  margin:0;
+  transform: rotate(-120deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 130%;
+  object-fit: contain;
+}
+#arrow27 {
+  position: absolute;
+  bottom: -215vh;
+  left: 23.5vw;
+  margin:0;
+  transform: rotate(-50deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 115%;
+  object-fit: contain;
+}
+/*#arrowtest {
+  position: absolute;
+  bottom: 0vh;
+  left: 50vw;
+  margin:0;
+  transform: rotate(-120deg);
+  opacity: 0%;
+  width: auto;
+  max-height: 200%;
+  object-fit: contain;
+}*/

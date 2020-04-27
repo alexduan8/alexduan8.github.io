@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+    <title> Food Web Test</title>
+    <link rel="shortcut icon" type="image/png" href="../../week06/code/globe.png"/>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js" defer></script>
+
+
+
+
+ <body>
+  <div id= "container">
+   <div id = "title">
+      Tropical Rainforest Food Web
+  </div>
+  <div id= "p-container">
+    <p class= "instructions" id= "instr-1">Hover around to Reveal</p>
+    <p class= "instructions" id= "instr-2">Click to Learn More </p>
+    <p class= "instructions" id= "instr-3"> Space Bar to Clear </p>
+  </div>
+</div>
+<div id= "div-contain" >
+
+<div class= "web-contain" id= "web-sec1">
+  <div id = "sun" >
+    <div id="arrow1">
+      <img id ="arrow1a" src="assets/arrow1.png" >
+    </div>
+    <div id="arrow2">
+      <img id ="arrow2a" src="assets/arrow1.png" >
+    </div>
+    <!--<div id="arrow3">
+      <img id ="arrow3a" src="assets/arrow1.png" >
+    </div>
+    <div id="arrow4">
+      <img id ="arrow4a" src="assets/arrow1.png" >
+    </div>
+    <div id="arrow5">
+      <img id ="arrow5a" src="assets/arrow1.png" >
+    </div>-->
+      <img id ="arrow26" src="assets/arrow6.png" >
+      <img id ="arrow27" src="assets/arrow6.png" >
+    <img class = "food-img" id="the-sun" src= "assets/the-sun.png">
+  </div>
+
+  <div id= "target">
+    <div id="arrow6">
+      <img id ="arrow6a" src ="assets/arrow1.png" >
+    </div>
+    <img id= "ferns" src ="assets/ferns.png">
+  </div>
+  <div id = "plant_description">
+    Ferns (Tracheophyta)
+  </div>
+  <div id= "target3">
+    <!--<img id = "arrowtest" src ="assets/arrow1.png" >
+    <div id="arrow7">
+      <img id ="arrow7a" src ="assets/arrow1.png" >
+    </div>
+    <div id="arrow8">
+      <img id ="arrow8a" src ="assets/arrow1.png" >
+    </div>
+    <div id="arrow9">
+      <img id ="arrow9a" src ="assets/arrow1.png" >
+    </div>-->
+    <img id = "arrow25" src ="assets/arrow8.png" >
+    <img id= "deer" src ="assets/mule-deer.png">
+  </div>
+  <div id = "plant_description3">
+    Mule deer (Odocoileus hemionus)
+  </div>
+
+  <div id= "target4">
+    <img id = "arrow10" src ="assets/arrow4.png" >
+    <!--<img id = "arrow11" src ="assets/arrow5.png" >
+    <img id = "arrow12" src ="assets/arrow5.png" >
+    <img id = "arrow13" src ="assets/arrow5.png" >-->
+    <img id= "frog" src ="assets/tree-frog-pacific.png">
+  </div>
+  <div id = "plant_description4">
+    Pacific tree frog (Pseudacris regilla)
+  </div>
+
+
+
+</div>
+
+<div class= "web-contain" id= "web-sec2">
+  <div id= "target2">
+    <img id = "arrow14" src ="assets/arrow7.png" >
+    <img id= "cashew" src ="assets/cashew-fruit.png">
+  </div>
+  <div id = "plant_description2">
+    Cashew fruit (Anacardium occidentale)
+  </div>
+
+  <div id= "target5">
+    <img id = "arrow15" src ="assets/arrow1.png" >
+    <!--<img id = "arrow16" src ="assets/arrow7.png" >
+    <img id = "arrow17" src ="assets/arrow7.png" >-->
+    <img id= "lemur" src ="assets/ring-tailed-lemur.png">
+  </div>
+  <div id = "plant_description5">
+    Ring-tailed lemur (Lemur catta)
+  </div>
+
+  <div id= "target6">
+    <img id = "arrow18" src ="assets/arrow1.png" >
+    <img id= "pine-cone" src ="assets/pine-conifer.png">
+  </div>
+  <div id = "plant_description6">
+    Pine (Pinus)
+  </div>
+
+  <div id= "target7">
+    <img id = "arrow19" src ="assets/arrow6.png" >
+    <img id= "squirrel" src ="assets/squirrel.png">
+  </div>
+  <div id = "plant_description7">
+    Squirrel (Sciuridae)
+  </div>
+
+
+</div>
+
+<div class= "web-contain" id= "web-sec3">
+  <div id= "target8">
+    <img id = "arrow20" src ="assets/arrow1.png" >
+    <img id= "berries" src ="assets/red-berry.png">
+  </div>
+  <div id = "plant_description8">
+    Red berry (Rhamnus ilicifolia)
+  </div>
+
+  <div id= "target9">
+    <img id = "arrow21" src ="assets/arrow6.png" >
+    <img id = "arrow22" src ="assets/arrow1.png" >
+    <img id= "butterfly" src ="assets/butterfly.png">
+  </div>
+  <div id = "plant_description9">
+    Butterfly (Rhopalocera)
+  </div>
+
+  <div id= "target10">
+    <!-- <div id="arrow4">
+      <img src="assets/arrow1.png" >
+    </div> -->
+    <img id= "bobcat" src ="assets/bobcat.png">
+  </div>
+  <div id = "plant_description10">
+    Bobcat (Lynx rufus)
+  </div>
+
+  <div id= "target11">
+    <!-- <div id="arrow4">
+      <img src="assets/arrow1.png" >
+    </div> -->
+    <img id= "coyote" src ="assets/coyote.png">
+  </div>
+  <div id = "plant_description11">
+    Coyote (Canis latrans)
+  </div>
+
+</div>
+
+<div class= "web-contain" id= "web-sec">
+  <div id= "target12">
+    <img id = "arrow23" src ="assets/arrow7.png" >
+    <img id= "lizard" src ="assets/west-whiptail.png">
+  </div>
+  <div id = "plant_description12">
+    Western whiptail (Cnemidophorus tigris)
+  </div>
+
+  <div id= "target13">
+    <!-- <div id="arrow4">
+      <img src="assets/arrow1.png" >
+    </div> -->
+    <img id= "raven" src ="assets/raven.png">
+  </div>
+  <div id = "plant_description13">
+    Raven (Corvus corax)
+  </div>
+
+  <div id= "target14">
+    <img id = "arrow24" src ="assets/arrow1.png" >
+    <img id= "marten" src ="assets/pine-marten.png">
+  </div>
+  <div id = "plant_description14">
+    Pine Martin (Martes martes)
+  </div>
+
+  <div id= "target15">
+    <!-- <div id="arrow4">
+      <img src="assets/arrow1.png" >
+    </div> -->
+    <img id= "lion" src ="assets/mount-lion.png">
+  </div>
+  <div id = "plant_description15">
+    Mountain Lion (Puma concolor)
+  </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+  </body>
+  </html>
