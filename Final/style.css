@@ -5,6 +5,10 @@ html {
   justify-content: center;
   text-align: center;
 }
+img {
+  width: 30%;
+  height: auto;
+}
 #instructions{
     width: 80vw;
 }
@@ -110,7 +114,7 @@ html {
 
 .animated9{
   animation-name: fadein;
-  animation-duration: 120s;
+  animation-duration: 45s;
 }
 
 .animated10{
