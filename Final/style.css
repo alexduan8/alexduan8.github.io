@@ -1,0 +1,129 @@
+html {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#instructions{
+    width: 80vw;
+}
+#line1{
+    font-family: monospace;
+    font-size: 1.7vw;
+    color: white;
+    text-align: center;
+}
+#line2{
+    font-family: monospace;
+    font-size: 1.7vw;
+    color: white;
+    text-align: center;
+}
+#line3{
+    font-family: monospace;
+    font-size: 1.7vw;
+    color: white;
+    text-align: center;
+}
+#line4{
+    font-family: monospace;
+    font-size: 1.7vw;
+    color: white;
+    text-align: center;
+}
+#line5{
+    font-family: monospace;
+    font-size: 1.7vw;
+    color: white;
+    text-align: center;
+}
+#word6{
+    font-family: monospace;
+    font-size: 1.7vw;
+    color: white;
+    text-align: center;
+}
+#line7{
+    font-family: monospace;
+    font-size: 1.7vw;
+    color: white;
+    text-align: center;
+}
+#line8{
+    font-family: monospace;
+    font-size: 1.7vw;
+    color: white;
+    text-align: center;
+}
+#line9{
+    font-family: monospace;
+    font-size: 1.7vw;
+    color: white;
+    text-align: center;
+}
+#line10{
+    font-family: monospace;
+    font-size: 1.7vw;
+    color: white;
+    text-align: center;
+}
+.animated1{
+    animation-name: fadein;
+    animation-duration: 5s;
+}
+
+.animated2{
+  animation-name: fadein;
+  animation-duration: 10s;
+}
+
+.animated3{
+  animation-name: fadein;
+  animation-duration: 15s;
+}
+
+.animated4{
+  animation-name: fadein;
+  animation-duration: 20s;
+}
+
+.animated5{
+  animation-name: fadein;
+  animation-duration: 25s;
+}
+
+.animated6{
+  animation-name: fadein;
+  animation-duration: 30s;
+}
+
+.animated7{
+  animation-name: fadein;
+  animation-duration: 35s;
+}
+
+.animated8{
+  animation-name: fadein;
+  animation-duration: 40s;
+}
+
+.animated9{
+  animation-name: fadein;
+  animation-duration: 120s;
+}
+
+.animated10{
+  animation-name: fadein;
+  animation-duration: 125s;
+}
+
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+     opacity: 1;
+    }
+  }
