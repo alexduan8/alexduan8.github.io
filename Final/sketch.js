@@ -1,7 +1,7 @@
 var state;
 let begin;
-var Width = windowWidth;
-var Height = windowHeight;
+var Width = 800;
+var Height = 600;
 let q, w, e, r, t, y, u, i, o, p;
 var randWidth, randHeight;
 let a, s, d, f, g, h, j, k, l;
@@ -45,14 +45,12 @@ function preload(){
   m = loadSound("pages.m4a");
 }
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	createCanvas(Width, Height);
   textFont("Courier New");
   state = 0;
 	begin = millis();
 }
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
+
 function draw() {
 	randWidth = random(0, width);
   randHeight = random(0, height);
